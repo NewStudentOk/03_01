@@ -49,7 +49,7 @@ public:
     bool set_num2(double num2) {
         if (num2 == 0)
             return false;
-        Calculator::num2 = num2;
+        this->num2 = num2;
         return true;
     }
 
